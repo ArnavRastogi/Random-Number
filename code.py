@@ -1,9 +1,10 @@
 import random
+num = int(input("Enter a number: "))
 range = int(input("Enter the range till the number you want to guess : "))
 answer = int(range*random.random())+1
 guess = 0
 score = 0
-
+print(num*10)
 while guess != answer:
     guess = int(input("Guess a number : "))
     too = ""
